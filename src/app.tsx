@@ -1,10 +1,13 @@
 import React from 'react';
+import Home from './pages/home';
+import NavigationBar from './components/nav';
 
 const App = () => {
   return (
-    <h1>
-      Hello!
-    </h1>
+    <>
+      <NavigationBar />
+      <Home />
+    </>
   );
 };
 

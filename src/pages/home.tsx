@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -19,12 +19,12 @@ const Home = () => {
               <h1 className="oswald mb-2 title-text">Derrick Fleming</h1>
               <p className='fs-4 mb-0'>Software Developer who loves </p>
               <p className='fs-4 highlight'>web development. </p>
-              <Button className='me-4'>
+              <Link className='me-4 btn btn-primary' to="/projects">
                 Projects
-              </Button>
-              <Button>
+              </Link>
+              <Link className="btn btn-primary" to="/about">
                 About Me
-              </Button>
+              </Link>
             </Col>
           </Row>
         </Col>

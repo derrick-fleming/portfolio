@@ -1,3 +1,22 @@
 .oswald {
   font-family: Oswald, sans-serif;
 }
+
+.profile {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.open-sans {
+  font-family: open-sans, sans-serif;
+  font-weight: 300;
+}
+
+.title-text {
+  font-size: 4rem;
+}
+
+.height-100 {
+  height: 100%;
+}

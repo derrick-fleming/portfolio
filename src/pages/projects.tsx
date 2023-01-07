@@ -6,13 +6,13 @@ import Col from 'react-bootstrap/Col';
 
 const Projects = () => {
   return (
-    <Container fluid="lg">
+    <Container fluid="lg animate">
       <Row className="mt-4 my-2">
         <h1 className="ms-4 oswald">Projects</h1>
         <p className="ms-4 fs-4 open-sans">Check out some of my latest projects that I have developed and completed.</p>
       </Row>
       <Row className="py-2 justify-content-center">
-        <Col sm={6} md={6} lg={5}>
+        <Col sm={6} md={6} lg={5} className="animate glow delay-1">
           <Card className="mx-4 mb-4 shadow-sm">
             <Card.Img variant="top" src="/images/zion-stock.jpeg" className='vertical'></Card.Img>
             <Card.Body>
@@ -34,7 +34,7 @@ const Projects = () => {
             </Card.Footer>
           </Card>
         </Col>
-        <Col sm={6} md={6} lg={5}>
+        <Col sm={6} md={6} lg={5} className="animate glow delay-2">
           <Card className="mx-4 shadow-sm">
             <Card.Img variant="top" src="/images/animal-crossing.jpg" className='vertical'></Card.Img>
             <Card.Body>

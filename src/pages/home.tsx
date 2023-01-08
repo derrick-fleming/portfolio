@@ -23,10 +23,10 @@ const Home = () => {
                   <p className='fs-4 highlight'>web development</p></div>
               </div>
 
-              <Link className='me-4 btn btn-primary' to="/projects">
+              <Link className='me-4 btn btn-primary animate glow delay-1' to="/projects">
                 Projects
               </Link>
-              <Link className="btn btn-primary" to="/about">
+              <Link className="btn btn-primary animate glow delay-2" to="/about">
                 About Me
               </Link>
             </Col>

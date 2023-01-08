@@ -8,19 +8,21 @@ const AboutMe = () => {
     <Container fluid="lg animate">
       <Row className="my-4">
         <Col className="ms-4">
-          <h1 className="oswald mb-4">About Me</h1>
+          <div>
+            <h1 className="ms-4 oswald highlight">About Me</h1>
+          </div>
           <Row className="justify-content-center">
-            <Col sm={11}>
-              <p className="fs-5 lh-lg">
+            <Col sm={11} className="open-sans">
+              <p className="fs-5 lh-lg animate">
                 👋 I&apos;m a software developer with skills in JavaScript, React, Node.js, CSS, and HTML. As a former educator and instructional designer,
                 I&apos;m drawn to being able to problem solve and think creatively through programming.
                 I love being able to improve and grow in my skills and am always striving to learn each day.
                 My goal is to create applications that can provide a meaningful and positive impact on the community.
               </p>
-              <h5>
-                Here&apos;s what I&apos;m currently up to:
-              </h5>
-              <ul className="lh-lg">
+              <h3 className="animate delay-1 oswald">
+                Currently I&apos;m:
+              </h3>
+              <ul className="lh-lg animate delay-1">
                 <li>
                   💡 Furthering my TypeScript and React knowledge.
                 </li>
@@ -31,18 +33,18 @@ const AboutMe = () => {
                   🎮 Playing Pokemon Violet - Just started!
                 </li>
               </ul>
-              <h5>
+              <h3 className="animate delay-3 oswald">
                 Stack
-              </h5>
-              <ul className="lh-lg">
+              </h3>
+              <ul className="lh-lg animate delay-3">
                 <li>
-                  🗣 Languages: JavaScript, HTML5, CSS3, SQL, TypeScript
+                  🗣 <span className='fw-bold'>Languages:</span> JavaScript, HTML5, CSS3, SQL, TypeScript
                 </li>
                 <li>
-                  📚 Libraries/Frameworks: React, Node.js, Express.js, Bootstrap
+                  📚 <span className="fw-bold">Libraries/Frameworks: </span>React, Node.js, Express.js, Bootstrap
                 </li>
                 <li>
-                  🧰 Tools: Git, Github, Docker, Figma, Visual Studio Code, NPM, Babel, Webpack
+                  🧰 <span className="fw-bold">Tools: </span>Git, Github, Docker, Figma, Visual Studio Code, NPM, Babel, Webpack
                 </li>
               </ul>
             </Col>

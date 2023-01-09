@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 const Projects = () => {
   return (
     <Container fluid="lg animate">
-      <Row className="mt-4 my-2">
+      <Row className="mt-4 my-2 text-light">
         <div>
           <h1 className="ms-4 oswald highlight">Projects</h1>
         </div>

@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col';
 
 const AboutMe = () => {
   return (
-    <Container fluid="lg animate">
+    <Container fluid="lg animate text-light">
       <Row className="my-4">
-        <Col className="ms-4">
+        <Col>
           <div>
             <h1 className="ms-4 oswald highlight">About Me</h1>
           </div>

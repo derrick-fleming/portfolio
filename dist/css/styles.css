@@ -1,3 +1,18 @@
+html {
+  background:
+    linear-gradient(
+      -45deg,
+      #da6590,
+      #900084,
+      #22096e
+    );
+  background-size: 200% 400%;
+}
+
+body {
+  background: transparent;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -12,8 +27,8 @@ ul {
 }
 
 .profile {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   object-fit: cover;
 }
 
@@ -42,7 +57,7 @@ ul {
 
 .highlight::before {
   /* Highlight color */
-  background-color: #ffe262;
+  background-color: #a51c8e;
   content: "";
   position: absolute;
   width: calc(100% + 4px);
@@ -99,6 +114,20 @@ ul {
 
 .delay-3 {
   animation-delay: 0.8s;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {

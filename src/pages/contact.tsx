@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 const Contact = () => {
   return (
-    <Container fluid="lg animate">
+    <Container fluid="lg animate text-light">
       <Row className="my-4 align-items-center height">
         <Col className="ms-4 text-center">
           <div>

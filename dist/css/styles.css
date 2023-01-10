@@ -2,7 +2,7 @@ html {
   background:
     linear-gradient(
       -45deg,
-      #51b08a,
+      #3f8e6e,
       #008b90,
       #006c90,
       #09386e,
@@ -10,6 +10,10 @@ html {
     );
   background-size: 200% 350%;
   animation: gradient 15s ease infinite;
+}
+
+.bg-blue {
+  background-color: #062957;
 }
 
 .navbar {
@@ -34,10 +38,10 @@ ul {
   list-style: none;
 }
 
-.border-magenta {
-  --bs-border-color: #335a86;
+.border-navy {
+  --bs-border-color: #062957;
 
-  border-color: #335a86;
+  border-color: #062957;
 }
 
 .oswald {
@@ -51,7 +55,7 @@ ul {
 }
 
 .off-canvas-background {
-  background-color: #22096e;
+  background-color: #062957;
 }
 
 .open-sans {

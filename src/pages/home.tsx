@@ -22,10 +22,10 @@ const Home = () => {
                   <p className='fs-4 highlight'>web development</p>
               </div>
 
-              <Link className='me-4 btn btn-primary animate glow delay-1 fs-5 shadow-sm' to="/projects">
+              <Link className='me-4 btn btn-light animate glow delay-1 fs-5 shadow-sm' to="/projects">
                 Projects
               </Link>
-              <Link className="btn btn-primary animate glow delay-2 fs-5 shadow-sm" to="/about">
+              <Link className="btn btn-light animate glow delay-2 fs-5 shadow-sm" to="/about">
                 About Me
               </Link>
             </Col>

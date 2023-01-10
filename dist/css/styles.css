@@ -6,7 +6,16 @@ html {
       #900084,
       #22096e
     );
-  background-size: 200% 400%;
+  background-size: 200% 350%;
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.btn-close {
+  /* stylelint-disable-next-line max-line-length */
+  background-image: image/svg+xml, %3csvg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="%23fff" %3e%3cpath d="M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z" /%3e%3c/svg%3e;
 }
 
 body {
@@ -22,6 +31,12 @@ ul {
   list-style: none;
 }
 
+.border-magenta {
+  --bs-border-color: #a51c8e;
+
+  border-color: #a51c8e;
+}
+
 .oswald {
   font-family: Oswald, sans-serif;
 }
@@ -30,6 +45,10 @@ ul {
   height: 350px;
   width: 350px;
   object-fit: cover;
+}
+
+.off-canvas-background {
+  background-color: #22096e;
 }
 
 .open-sans {
@@ -48,6 +67,15 @@ ul {
 .vertical {
   height: 300px;
   object-fit: cover;
+}
+
+.btn-magenta {
+  --bs-btn-bg: #a51c8e;
+  --bs-btn-border-color: #a51c8e;
+  --bs-btn-hover-border-color: #841772;
+  --bs-btn-hover-bg: #841772;
+  --bs-btn-active-bg: #841772;
+  --bs-btn-active-border-color: #841772;
 }
 
 .highlight {

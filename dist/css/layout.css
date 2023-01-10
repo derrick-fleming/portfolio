@@ -1,3 +1,7 @@
 .height {
-  height: 50vh;
+  height: 75vh;
+}
+
+.offcanvas {
+  max-width: 50%;
 }

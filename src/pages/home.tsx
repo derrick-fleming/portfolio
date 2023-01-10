@@ -19,10 +19,10 @@ const Home = () => {
               <h1 className="oswald mb-2 title-text">Derrick Fleming</h1>
               <p className='fs-4 mb-0'>Software Developer who loves all things </p>
               <div>
-                  <p className='fs-4 highlight'>web development</p>
+                  <p className='fst-italic fs-4'>web development</p>
               </div>
 
-              <Link className='me-4 btn btn-light animate glow delay-1 fs-5 shadow-sm' to="/projects">
+              <Link className='me-4 btn btn-primary btn-navy animate glow delay-1 fs-5 shadow-sm' to="/projects">
                 Projects
               </Link>
               <Link className="btn btn-light animate glow delay-2 fs-5 shadow-sm" to="/about">

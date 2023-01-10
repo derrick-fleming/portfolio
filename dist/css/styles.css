@@ -2,11 +2,14 @@ html {
   background:
     linear-gradient(
       -45deg,
-      #da6590,
-      #900084,
-      #22096e
+      #51b08a,
+      #008b90,
+      #006c90,
+      #09386e,
+      #09356e
     );
   background-size: 200% 350%;
+  animation: gradient 15s ease infinite;
 }
 
 .navbar {
@@ -32,9 +35,9 @@ ul {
 }
 
 .border-magenta {
-  --bs-border-color: #a51c8e;
+  --bs-border-color: #335a86;
 
-  border-color: #a51c8e;
+  border-color: #335a86;
 }
 
 .oswald {
@@ -69,31 +72,13 @@ ul {
   object-fit: cover;
 }
 
-.btn-magenta {
-  --bs-btn-bg: #a51c8e;
-  --bs-btn-border-color: #a51c8e;
-  --bs-btn-hover-border-color: #841772;
-  --bs-btn-hover-bg: #841772;
-  --bs-btn-active-bg: #841772;
-  --bs-btn-active-border-color: #841772;
-}
-
-.highlight {
-  position: relative;
-  display: inline-block;
-}
-
-.highlight::before {
-  /* Highlight color */
-  background-color: #a51c8e;
-  content: "";
-  position: absolute;
-  width: calc(100% + 4px);
-  height: 60%;
-  left: -2px;
-  bottom: 0;
-  z-index: -1;
-  transform: rotate(-2deg);
+.btn-navy {
+  --bs-btn-bg: #09356e;
+  --bs-btn-border-color: #09356e;
+  --bs-btn-hover-border-color: #09216e;
+  --bs-btn-hover-bg: #09216e;
+  --bs-btn-active-bg: #09216e;
+  --bs-btn-active-border-color: #09216e;
 }
 
 .animate {

@@ -2,7 +2,7 @@ html {
   background:
     linear-gradient(
       -45deg,
-      #3f8e6e,
+      #3f8e8a,
       #008b90,
       #006c90,
       #09386e,
@@ -13,7 +13,7 @@ html {
 }
 
 .bg-blue {
-  background-color: #1a416d;
+  background-color: #9dc8da;
 }
 
 .navbar {
@@ -39,9 +39,9 @@ ul {
 }
 
 .border-navy {
-  --bs-border-color: #062957;
+  --bs-border-color: #9dc8da;
 
-  border-color: #062957;
+  border-color: #9dc8da;
 }
 
 .oswald {

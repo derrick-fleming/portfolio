@@ -16,7 +16,7 @@ const Projects = () => {
       <Row className="py-2 justify-content-center">
         <Col sm={6} md={6} lg={5} className="animate glow delay-2">
           <Card className="mx-4 mb-4 shadow-lg border border-5 border-navy bg-blue">
-            <Card.Img variant="top" src="/images/zion-stock.jpeg" className='vertical'></Card.Img>
+            <Card.Img variant="top" src="/images/zion-stock.webp" className='vertical'></Card.Img>
             <Card.Body className="text-light">
               <h1 className="oswald">Park Advisor</h1>
               <p className="fs-5 open-sans">
@@ -35,7 +35,7 @@ const Projects = () => {
         </Col>
         <Col sm={6} md={6} lg={5} className="animate glow delay-3">
           <Card className="mx-4 shadow-lg border border-5 border-navy bg-blue">
-            <Card.Img variant="top" src="/images/animal-crossing.jpg" className='vertical'></Card.Img>
+            <Card.Img variant="top" src="/images/animal-crossing.webp" className='vertical'></Card.Img>
             <Card.Body className="text-light">
               <h1 className="oswald">MyVillagers</h1>
               <p className="fs-5 open-sans">

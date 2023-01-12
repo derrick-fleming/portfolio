@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "watch": "webpack --watch --stats=minimal --mode=development --devtool=source-map"
+    "watch": "webpack --watch --stats=minimal --mode=development --devtool=source-map",
+    "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
   "dependencies": {

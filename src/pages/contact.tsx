@@ -16,7 +16,7 @@ const Contact = () => {
           <a className="btn btn-primary btn-navy me-2 animate glow delay-1 fs-5" href="https://www.linkedin.com/in/derrick-fleming/">
             <span className="fa-brands fa-linkedin me-2"></span>LinkedIn
           </a>
-          <a className="btn btn-light me-2 animate glow delay-2 fs-5" href="https://github.com/derrick-fleming">
+          <a className="btn btn-primary btn-navy me-2 animate glow delay-2 fs-5" href="https://github.com/derrick-fleming">
             <span className="fa-brands fa-github me-2"></span>Github
           </a>
         </Col>

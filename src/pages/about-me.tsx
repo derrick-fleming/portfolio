@@ -19,18 +19,18 @@ const AboutMe = () => {
                 I love being able to improve and grow in my skills and am always striving to learn each day.
                 My goal is to create applications that can provide a meaningful and positive impact on the community.
               </p>
-              <h3 className="animate delay-3 oswald">
+              <h2 className="animate delay-3 oswald mb-3">
                 Stack
-              </h3>
+              </h2>
               <ul className="lh-lg animate delay-3 fs-5">
                 <li>
-                  🗣 <span className='fw-bold'>Languages:</span> JavaScript, HTML5, CSS3, SQL, TypeScript
+                  💻 <span className='fw-bold fst-italic'>Languages:</span> JavaScript, HTML5, CSS3, SQL, TypeScript
                 </li>
                 <li>
-                  📚 <span className="fw-bold">Libraries/Frameworks: </span>React, Node.js, Express.js, Bootstrap
+                  📚 <span className="fw-bold fst-italic">Libraries/Frameworks: </span>React, Node.js, Express.js, Bootstrap
                 </li>
                 <li>
-                  🧰 <span className="fw-bold">Tools: </span>Git, Github, Docker, Figma, Visual Studio Code, NPM, Babel, Webpack
+                  🧰 <span className="fw-bold fst-italic">Tools: </span>Git, Github, Docker, Figma, Visual Studio Code, NPM, Babel, Webpack
                 </li>
               </ul>
             </Col>

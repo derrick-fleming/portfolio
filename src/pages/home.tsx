@@ -10,7 +10,7 @@ const Home = () => {
     <Container fluid="lg">
       <Row className="mt-4 align-items-center animate height">
         <Col xs={12} sm={6} className="p-4 text-end">
-          <Image fluid roundedCircle src="/images/fleming-photo.jpg" className="profile border border-4 border-light shadow-lg"></Image>
+          <Image fluid roundedCircle src="/images/fleming-photo.webp" className="profile border border-4 border-light shadow-lg"></Image>
         </Col>
         <Col sm={6}>
           <Row className="align-items-center text-light">

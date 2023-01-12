@@ -1,5 +1,6 @@
-public/main.js*
+server/public/main.js*
 node_modules
 .DS_Store
 .vscode
+.env
 *.log

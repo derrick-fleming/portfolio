@@ -76,6 +76,14 @@ ul {
   object-fit: cover;
 }
 
+.icon-background {
+  color: #09216e;
+}
+
+.image-align {
+  text-align: center;
+}
+
 .btn-navy {
   --bs-btn-bg: #09356e;
   --bs-btn-border-color: #09356e;
@@ -151,5 +159,17 @@ ul {
   .animate,
   .animate.glow {
     animation: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image-align {
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .block {
+    display: block;
   }
 }

@@ -7,20 +7,20 @@ import Col from 'react-bootstrap/Col';
 const Projects = () => {
   return (
     <Container fluid="lg animate">
-      <Row className="mt-4 my-2 text-light">
+      <Row className="mt-4 my-2 text-light align-items-center">
         <div>
-          <h1 className="ms-4 oswald">Projects</h1>
+          <h1 className="ps-4 oswald">Projects</h1>
+          <p className="ps-4 fs-4 open-sans">Check out some of my latest projects that I have developed and completed.</p>
         </div>
-        <p className="ms-4 fs-4 open-sans">Check out some of my latest projects that I have developed and completed.</p>
       </Row>
-      <Row className="py-2 justify-content-center">
-        <Col sm={6} md={6} lg={5} className="animate glow delay-2">
-          <Card className="mx-4 mb-4 shadow-lg border border-5 border-navy bg-blue">
+      <Row className="py-2 justify-content-center align-items-center">
+        <Col xs={11} sm={6} md={6} xl={5} className="animate glow delay-2 px-2">
+          <Card className="mb-4 shadow-lg border border-5 border-navy bg-blue">
             <Card.Img variant="top" src="images/zion-stock.webp" className='vertical'></Card.Img>
             <Card.Body className="text-dark">
               <h1 className="oswald">Park Advisor</h1>
               <p className="fs-5 open-sans">
-                A full stack web application for travelers who want to search, review, and track their visits to different national parks.
+                A full stack web application for travelers who want to review and track their visits to different national parks.
               </p>
             </Card.Body>
             <Card.Footer className="open-sans border-secondary">
@@ -33,13 +33,13 @@ const Projects = () => {
             </Card.Footer>
           </Card>
         </Col>
-        <Col sm={6} md={6} lg={5} className="animate glow delay-3">
-          <Card className="mx-4 shadow-lg border border-5 border-navy bg-blue">
+        <Col xs={11} sm={6} md={6} xl={5} className="animate glow delay-3">
+          <Card className="mb-4 shadow-lg border border-5 border-navy bg-blue">
             <Card.Img variant="top" src="images/animal-crossing.webp" className='vertical'></Card.Img>
             <Card.Body className="text-dark">
               <h1 className="oswald">MyVillagers</h1>
               <p className="fs-5 open-sans">
-                A web application for Animal Crossing fans who want to see and keep notes on their favorite villagers.
+                A web application for Animal Crossing fans who want to view and keep notes on their favorite villagers.
               </p>
             </Card.Body>
             <Card.Footer className="open-sans border-secondary border-2">
